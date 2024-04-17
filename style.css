@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    background-color:blue ;
+ 
+}
+
+/* li{ */
+/* display: flex; */
+/* padding: 50%; */
+/* background-color: rgb(128, 0, 19); */
+/* } */
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    
+}
+ul{
+    display: flex;
+    
+    background-color: aqua;
+}
+.navy{
+    align-content:flex-end;
+
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+}
+.btn-primary{
+    background-color:rgb(255, 153, 19);
+}
+span{
+    color:rgb(255, 153, 19);
+}
