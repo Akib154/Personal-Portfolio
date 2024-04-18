@@ -1,7 +1,9 @@
 nav {
     display: flex;
-    background-color:blue ;
- 
+    /* background-color: blue; */
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 /* li{ */
@@ -12,15 +14,18 @@ nav {
 nav li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
-ul{
+
+
+ul {
     display: flex;
-    
-    background-color: aqua;
+    /* background-color: aqua; */
+    align-items: center;
 }
-.navy{
-    align-content:flex-end;
+
+.navy {
+    align-content: flex-end;
 
 }
 
@@ -30,12 +35,24 @@ body {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-variation-settings:"wdth" 100;
+    font-variation-settings: "wdth" 100;
 
 }
-.btn-primary{
-    background-color:rgb(255, 153, 19);
+
+.btn-primary {
+    background-color: rgb(255, 153, 19);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
-span{
-    color:rgb(255, 153, 19);
+
+span {
+    color: rgb(255, 153, 19);
+
+
+
+
 }
